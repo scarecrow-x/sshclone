@@ -2,7 +2,7 @@ module.exports = {
   apps: [
     {
       name: "sshclone",
-      script: "bin/www.js",
+      script: "./bin/www.js",
       env: {
         COMMON_VARIABLE: "true",
       },
