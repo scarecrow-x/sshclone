@@ -19,7 +19,7 @@ module.exports = {
       repo: "git@github.com:scarecrow-x/sshclone.git",
       path: "/var/www/development",
       "post-deploy":
-        "npm install && pm2 startOrRestart ecosystem.json --env dev",
+        "npm install && pm2 startOrRestart ecosystem.config.js --env dev",
       env: {
         NODE_ENV: "production",
       },
